@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  background: #fdfaff;
+  color: #444;
+}
+
+/* 画面全体を中央寄せ */
+.screen {
+  display: none;
+  padding: 20px;
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.screen.active {
+  display: block;
+}
+
+/* 上部情報（中央寄せ） */
+.top-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #666;
+}
+
+/* せいちゃん */
+.seichan-area {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#seichan-face {
+  width: 130px;
+  height: auto;
+}
+
+/* 吹き出し（中央寄せ＋かわいい枠線） */
+#seichan-text {
+  margin-top: 8px;
+  font-size: 15px;
+  padding: 10px 14px;
+  border-radius: 14px;
+  display: inline-block;
+  border: 2px solid #f0f0f0;
+  background: #ffffff;
+  transition: 0.2s;
+}
+
+/* 吹き出し色変化 */
+#seichan-text.pink {
+  background: #ffe6f2;
+  border-color: #ffbcd9;
+}
+#seichan-text.blue {
+  background: #e6f3ff;
+  border-color: #bcdcff;
+}
+#seichan-text.orange {
+  background: #fff0d6;
+  border-color: #ffd9a6;
+}
+
+/* ボタン（中央寄せ＋丸くてかわいい） */
+.button-area {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.emotion-btn {
+  font-size: 15px;
+  padding: 12px 22px;
+  border-radius: 999px;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+/* ボタン色 */
+.emotion-btn[data-type="pink"] {
+  background: #ffd6e8;
+}
+.emotion-btn[data-type="pink"]:hover {
+  background: #ffb3d4;
+}
+
+.emotion-btn[data-type="blue"] {
+  background: #d6ecff;
+}
+.emotion-btn[data-type="blue"]:hover {
+  background: #b3dbff;
+}
+
+.emotion-btn[data-type="orange"] {
+  background: #ffe2c4;
+}
+.emotion-btn[data-type="orange"]:hover {
+  background: #ffd1a1;
+}
+
+/* タイムライン（中央寄せ） */
+#timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 投稿ボックス（中央寄せ＋かわいい枠線） */
+.post-box {
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 14px;
+  margin-bottom: 14px;
+  border: 2px solid #f3f3f3;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.06);
+  width: 100%;
+  max-width: 450px;
+  text-align: left;
+}
+
+/* 投稿ヘッダー */
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.post-header .icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.post-header .name {
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.post-header .time {
+  margin-left: 8px;
+  font-size: 11px;
+  color: #888;
+}
+
+/* 投稿画像 */
+.post-image {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 10px;
+  margin: 8px 0;
+}
+
+/* 投稿テキスト */
+.post-text {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+/* コメント */
+.comments {
+  font-size: 13px;
+  background: #f7f7ff;
+  padding: 6px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+  border: 1px solid #ececff;
+}
+
+/* フォロワー増減 */
+.follow-change {
+  font-size: 15px;
+  text-align: right;
+  color: #666;
+}
+
+/* ------------------------------ */
+/* 結果画面（かわいく整えた完全版） */
+/* ------------------------------ */
+
+#result-screen {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.result-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 25px;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 3px solid #f3f3f3;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.result-image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.result-rank {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.result-followers {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.restart-btn {
+  padding: 12px 26px;
+  font-size: 18px;
+  border-radius: 999px;
+  background: #ffd9ec;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+.restart-btn:hover {
+  background: #ffc7e3;
+}

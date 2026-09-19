@@ -1,0 +1,72 @@
+{
+  "posts": {
+    "pink": [
+      {
+        "file": "assets/gallery/post_pink_01.png",
+        "followers": 250000,
+        "text": "刃ちゃんがご飯作ってきてくれた…！",
+        "comments": ["刃ちゃん優しすぎ", "ママ…", "刃ちゃんに感謝"]
+      },
+      {
+        "file": "assets/gallery/post_pink_02.png",
+        "followers": 200000,
+        "text": "緋英とグラフィエとカラオケ！",
+        "comments": ["何歌うの？", "Interstellar Journey歌って", "合いの手はまかせろ！"]
+      },
+      {
+        "file": "assets/gallery/post_pink_03.png",
+        "followers": 100000,
+        "text": "火花と配信！",
+        "comments": ["同接何人いった？", "アーカイブはよ"]
+      }
+    ],
+
+    "blue": [
+      {
+        "file": "assets/gallery/post_blue_01.png",
+        "followers": -100000,
+        "text": "不死途が私の冷蔵にいたんだけど…",
+        "comments": ["ご迷惑をおかけしております。回収に伺います", "あのでかい図体で冷蔵庫入るの？", "冷蔵庫の中身なくなってない？"]
+      },
+      {
+        "file": "assets/gallery/post_blue_02.png",
+        "followers": -200000,
+        "text": "パールが見つけてくれたけど、私の持ち物に何個もコイン型発信機ついてるんだけど？",
+        "comments": ["訴えろ、勝てる", "ドン引きです"]
+      },
+      {
+        "file": "assets/gallery/post_blue_03.png",
+        "followers": -300000,
+        "text": "姫子のコーヒーをご馳走になった",
+        "comments": ["ドンマイ", "ご愁傷さまです"]
+      }
+    ],
+
+    "orange": [
+      {
+        "file": "assets/gallery/post_orange_01.png",
+        "followers": 200000,
+        "text": "サンデーがロビンの配信見てた…！",
+        "comments": ["てぇてぇ", "デーニキ…"]
+      },
+      {
+        "file": "assets/gallery/post_orange_02.png",
+        "followers": 100000,
+        "text": "今日の運勢は【大吉】！！",
+        "comments": ["やったね", "仕事休みになりますように"]
+      },
+      {
+        "file": "assets/gallery/post_orange_03.png",
+        "followers": -100000,
+        "text": "銀狼、チートしないでよ？",
+        "comments": ["あぁ…", "無理だね…"]
+      },
+      {
+        "file": "assets/gallery/post_orange_04.png",
+        "followers": -100000,
+        "text": "虚照に一日取材された",
+        "comments": ["もふもふ号続き待機", "虚照の取材は地獄"]
+      }
+    ]
+  }
+}

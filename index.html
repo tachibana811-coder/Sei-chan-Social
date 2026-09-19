@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>星ちゃんバズらせ大作戦</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ゲーム画面 -->
+  <div id="game-screen" class="screen active">
+
+    <div class="top-info">
+      <div id="turn-display">ターン 1 / 10</div>
+      <div id="follower-display">フォロワー：0</div>
+    </div>
+
+    <div class="seichan-area">
+      <img id="seichan-face" src="assets/gallery/seichan_default.png" alt="せいちゃん">
+      <br>
+      <div id="seichan-text">今日の投稿どうしようかな〜</div>
+    </div>
+
+    <div class="button-area">
+      <button class="emotion-btn" data-type="pink">🩷</button>
+      <button class="emotion-btn" data-type="blue">🩵</button>
+      <button class="emotion-btn" data-type="orange">🧡</button>
+    </div>
+
+    <!-- タイムライン -->
+    <div id="timeline"></div>
+
+  </div>
+
+  <!-- 結果画面 -->
+  <div id="result-screen" class="screen">
+    <div class="result-card">
+
+      <!-- 結果イラスト -->
+      <img id="result-image" class="result-image" src="" alt="result">
+
+      <div id="result-rank" class="result-rank"></div>
+      <div id="result-followers" class="result-followers"></div>
+
+      <button id="restart-btn" class="restart-btn">もう一度遊ぶ</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
